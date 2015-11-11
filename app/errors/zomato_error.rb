@@ -1,0 +1,3 @@
+class ZomatoError < WheresMyBeerError
+
+end
