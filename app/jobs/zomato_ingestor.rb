@@ -36,7 +36,7 @@ class ZomatoIngestor
             id: venue[:id],
             name: venue[:name],
             link: venue[:url],
-            type: venue[establishment[:name]],
+            type: establishment[:name],
             cost: cost,
             location: location,
             rating: rating
